@@ -1,0 +1,12 @@
+[package]
+name = "rest"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.3.1"
+db = { path = "../db" }
+diesel = { version = "2.0.0", features = ["postgres", "r2d2"] }
+r2d2 = "0.8.10"
+dotenvy = "0.15"
+speedy = "0.8.6"

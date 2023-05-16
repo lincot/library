@@ -1,0 +1,9 @@
+[package]
+name = "db"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+diesel = { version = "2.0.0", features = ["postgres", "r2d2"] }
+diesel-derive-enum = { version = "2.0.1", features = ["postgres"] }
+speedy = "0.8.6"
